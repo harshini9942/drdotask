@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #add8e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Login Page Styles */
+.container {
+  background: white;
+  border-radius: 15px;
+  padding: 40px;
+  width: 400px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  text-align: center;
+}
+
+h1 {
+  color: #d63384;
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+}
+
+p {
+  color: #444;
+  margin-bottom: 25px;
+  font-size: 15px;
+}
+
+input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #d3a1b7;
+  margin-bottom: 20px;
+  font-size: 14px;
+  text-align: center;
+  outline: none;
+}
+
+input:focus {
+  border-color: #d63384;
+}
+
+button {
+  background-color: #d63384;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #b42b6d;
+}
+
+/* Profile Page Styles */
+.profile-box {
+  background: white;
+  padding: 60px;
+  border-radius: 20px;
+  width: 680px;
+  text-align: left;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+}
+
+h2 {
+  text-align: center;
+  color: #003d80;
+  margin-bottom: 30px;
+}
+
+.detail {
+  background: #e8f3ff;
+  padding: 18px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border-left: 6px solid #0073e6;
+}
